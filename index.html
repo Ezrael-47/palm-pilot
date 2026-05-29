@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+  <title>Palm Pilot · MrBeast Fan Page</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="palm-device">
+  <div class="brand-text">◈ Palm Pilot ◈</div>
+  <div class="screen">
+    <div class="screen-glow"></div>
+    <div class="lcd-display">
+      <div class="app-screen" id="appScreen"></div>
+      <div class="graffiti-area">
+        <div class="graffiti-pad">
+          <canvas id="graffitiCanvas" width="180" height="68"></canvas>
+        </div>
+        <div class="graffiti-buttons">
+          <button class="palm-btn" id="clearGraffitiBtn">CLR</button>
+          <button class="palm-btn" id="enterGraffitiBtn">↵</button>
+        </div>
+      </div>
+      <div class="status-bar">
+        <span>Graffiti</span>
+        <span id="batteryDisplay">🔋 88%</span>
+      </div>
+    </div>
+  </div>
+  <div style="display: flex; justify-content: center; margin-top: 14px; gap: 12px;">
+    <button class="palm-btn home-btn" id="homeButton">🏠 HOME</button>
+  </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
